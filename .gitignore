@@ -5,6 +5,8 @@ client/.flutter-plugins
 client/.flutter-plugins-dependencies
 client/.packages
 client/pubspec.lock
+backend/node_modules/
+.env
 
 # Node
 backend/node_modules/
