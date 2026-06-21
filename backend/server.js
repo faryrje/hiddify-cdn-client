@@ -1,6 +1,6 @@
 const express = require("express");
 const app = express();
-
+const subscription = require("./routes/subscription");
 app.get("/config", (req, res) => {
   res.json({
     version: "1.0",
@@ -24,6 +24,6 @@ app.get("/config/:user", (req, res) => {
   });
 });
 
-app.listen(3000, () => {
+app.use("/sub", subscription);app.listen(3000, () => {
   console.log("Backend running on http://localhost:3000");
 });

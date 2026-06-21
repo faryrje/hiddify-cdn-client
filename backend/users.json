@@ -1,0 +1,9 @@
+[
+  {
+    "id": 1,
+    "name": "test-user",
+    "token": "abc123xyz",
+    "expire": "2027-01-01",
+    "protocol": "sing-box"
+  }
+]
