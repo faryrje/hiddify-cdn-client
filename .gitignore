@@ -1,0 +1,15 @@
+# Flutter
+client/build/
+client/.dart_tool/
+client/.flutter-plugins
+client/.flutter-plugins-dependencies
+client/.packages
+client/pubspec.lock
+
+# Node
+backend/node_modules/
+backend/npm-debug.log
+
+# OS
+.DS_Store
+Thumbs.db
